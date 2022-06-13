@@ -8,3 +8,6 @@
 #sun {
     display: none;
 }
+.svg:hover {
+    cursor: pointer;
+}
