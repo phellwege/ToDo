@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Josefin+Sans:wght@400;700&family=Kumbh+Sans&family=Red+Hat+Text:wght@700&display=swap');
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    font-style: 'Josefin Sans';
+};
+.HomeCenter {
+    display: flex;
+    flex-direction: column;
+
+};
