@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import {ReactComponent as CheckBox} from '../static/icon-check.svg';
 import {ReactComponent as Cross} from '../static/icon-cross.svg';
+
 export default () => {
 
     return (
@@ -15,15 +16,21 @@ export default () => {
                 </div>
                 <div className="HomeBottom">
                     <ul>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
-                        <li><CheckBox className="svg"/>Items in list<Cross/></li>
+                        <li>
+                            <CheckBox className="svg" id='CheckSvg'/>
+                            Items in list
+                            <Cross className="svg" id='CrossSvg'/>
+                        </li>
+                        <li>
+                            <CheckBox className="svg" id='CheckSvg'/>
+                            Items in list
+                            <Cross className="svg" id='CrossSvg'/>
+                        </li>
+                        <li>
+                            <CheckBox className="svg" id='CheckSvg'/>
+                            Items in list
+                            <Cross className="svg" id='CrossSvg'/>
+                        </li>
                         <div className="footerWrap">
                             (count)Items Left
                             <ul>
