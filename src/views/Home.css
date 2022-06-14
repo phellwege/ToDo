@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% 40%;
-    font-style: 'Josefin Sans';
+    font-family: 'Josefin Sans';
 };
 .HomeCenter {
     display: flex;
@@ -32,6 +32,7 @@
 .HomeBottom ul {
     list-style: none;
     line-height: 2.5em;
+    font-family: 'Josefin Sans';
 }
 .HomeBottom ul li{
     border-bottom: 1px solid grey;
