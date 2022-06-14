@@ -6,7 +6,7 @@ export default () => {
 
     return (
         <div className='HeadWrap'>
-            <h1>Left</h1>
+            <h1>TODO</h1>
             <div>
                 <Sun className='svg' id='sun'/>
                 <Moon className='svg' id='moon'/>

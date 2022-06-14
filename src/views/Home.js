@@ -8,11 +8,16 @@ export default () => {
         <div className="background">
             <Header/>
             <div className="HomeCenter">
-                <div>
-                    Add Item
+                <div className="HomeTop">
+                    <form className="form">
+                        <textarea className="input"/>
+                    </form>
                 </div>
-                <div>
-                    Items in list
+                <div className="HomeBottom">
+                    <ul>
+                        <li>Items in list</li>
+                        <li>Items in list</li>
+                    </ul>
                 </div>
             </div>
         </div>

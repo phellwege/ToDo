@@ -12,4 +12,25 @@
 .HomeCenter {
     display: flex;
     flex-direction: column;
+    width: 100%;
 };
+.HomeTop {
+    width: 80%;
+    background-color: white;
+    border-radius: 1.5em;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+.HomeBottom {
+    width: 80%;
+    background-color: white;
+    border-radius: .5em;
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+.HomeBottom ul {
+    list-style: none;
+}
+.HomeBottom ul li{
+    border-bottom: 1px solid grey;
+}
