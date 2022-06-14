@@ -16,20 +16,22 @@
 };
 .HomeTop {
     width: 80%;
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     border-radius: 1.5em;
     margin-left: 10%;
     margin-top: 2.5%;
 }
 .HomeBottom {
     width: 80%;
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     border-radius: .5em;
     margin-left: 10%;
-    margin-top: 2.5%;
+    margin-top: 5%;
+    box-shadow: 0px 10px 10px hsl(233, 11%, 84%);
 }
 .HomeBottom ul {
     list-style: none;
+    line-height: 2.5em;
 }
 .HomeBottom ul li{
     border-bottom: 1px solid grey;
