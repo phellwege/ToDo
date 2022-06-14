@@ -18,7 +18,15 @@ export default () => {
     }
     function checkTheBox() {
         document.getElementById('CheckSvg').style.visibility = 'visible';
+        let x = document.getElementById('this')
+        if(x.style.textDecoration = 'initial') {
+        x.style.textDecoration = 'line-through';
+        x.style.color ='grey';
+        } else {
+            x.style.textDecoration = 'none';
+        }
     }
+
 const [listItem, setListItem] = useState('') 
 const [isShown, setIsShown] = useState(false)
     return (
@@ -32,19 +40,20 @@ const [isShown, setIsShown] = useState(false)
                     <ul>
                         <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
                             <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
-                            Items in list
-                            <Cross className="svg" id='CrossSvg'/>
-                        </li>
-                        <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
-                                <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
-                            Items in list
+                            <span id='this'>Items in list</span>
                             <Cross className="svg" id='CrossSvg'/>
                         </li>
                         <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
                             <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
-                            Items in list
+                            <span id='this'>Items in list</span>
                             <Cross className="svg" id='CrossSvg'/>
                         </li>
+                        <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
+                            <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
+                            <span id='this'>Items in list</span>
+                            <Cross className="svg" id='CrossSvg'/>
+                        </li>
+                        
                         <div className="footerWrap">
                             (count)Items Left
                             <ul>
