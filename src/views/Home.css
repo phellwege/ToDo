@@ -8,19 +8,19 @@
     background-position: top center;
     background-size: 100% 40%;
     font-family: 'Josefin Sans';
-};
+}
 .HomeCenter {
     display: flex;
     flex-direction: column;
     width: 100%;
-};
-.HomeTop {
+}
+.HomeCenter #HomeTop {
     width: 80%;
     background-color: hsl(0, 0%, 98%);
-    border-radius: 1.5em;
+    border-radius: .5em;
     margin-left: 10%;
     margin-top: 2.5%;
-    line-height: 2.5em;
+    line-height: 2em;
 }
 .HomeBottom {
     width: 80%;
@@ -36,5 +36,32 @@
     font-family: 'Josefin Sans';
 }
 .HomeBottom ul li{
+    display: flex;
     border-bottom: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%
+}
+.footerWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footerWrap ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.footerWrap ul li{
+    list-style: none;
+    border-bottom: none;
+}
+.svg {
+    fill: blue;
+    stroke: blue;
+}
+.svg:hover {
+    cursor: pointer;
 }

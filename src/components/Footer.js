@@ -5,14 +5,8 @@ export default () => {
 
     return (
         <>
-        <div className="footerWrap">
-            (count)Items Left
-            <ul>
-                <li>all</li>
-                <li>active</li>
-                <li>completed</li>
-            </ul>
-            Clear Selected
+        <div className="FootText">
+            <p>Drag and Drop to reorder list</p>
         </div>
         </>
     )
