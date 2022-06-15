@@ -11,6 +11,7 @@ export default () => {
     function showSvg() {
         document.getElementById('CheckSvg').style.visibility = 'visible';
         document.getElementById('CrossSvg').style.visibility = 'visible';
+        // document.getElementsByClassName('liSvg').style.visibility='visible';
     }
     function hideSvg() {
         document.getElementById('CheckSvg').style.visibility = 'hidden';
@@ -29,6 +30,7 @@ export default () => {
 
 const [listItem, setListItem] = useState('') 
 const [isShown, setIsShown] = useState(false)
+
     return (
         <div className="background">
             <Header/>
@@ -39,19 +41,19 @@ const [isShown, setIsShown] = useState(false)
                 <div className="HomeBottom">
                     <ul>
                         <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
-                            <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
+                            <CheckBox className="liSvg" id='CheckSvg' onClick={checkTheBox}/>
                             <span id='this'>Items in list</span>
-                            <Cross className="svg" id='CrossSvg'/>
+                            <Cross className="liSvg" id='CrossSvg'/>
                         </li>
                         <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
-                            <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
+                            <CheckBox className="liSvg" id='CheckSvg' onClick={checkTheBox}/>
                             <span id='this'>Items in list</span>
-                            <Cross className="svg" id='CrossSvg'/>
+                            <Cross className="liSvg" id='CrossSvg'/>
                         </li>
                         <li onMouseEnter={showSvg} onMouseLeave={hideSvg}>
-                            <CheckBox className="svg" id='CheckSvg' onClick={checkTheBox}/>
+                            <CheckBox className="liSvg" id='CheckSvg' onClick={checkTheBox}/>
                             <span id='this'>Items in list</span>
-                            <Cross className="svg" id='CrossSvg'/>
+                            <Cross className="liSvg" id='CrossSvg'/>
                         </li>
                         
                         <div className="footerWrap">
