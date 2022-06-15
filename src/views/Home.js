@@ -7,16 +7,23 @@ import {ReactComponent as CheckBox} from '../static/icon-check.svg';
 import {ReactComponent as Cross} from '../static/icon-cross.svg';
 
 
+
 export default () => {
     function showSvg() {
-        document.getElementById('CheckSvg').style.visibility = 'visible';
-        document.getElementById('CrossSvg').style.visibility = 'visible';
-        // document.getElementsByClassName('liSvg').style.visibility='visible';
-    }
+        var i = 0;
+        var col = document.getElementsByClassName('liSvg');
+        for(i=0; i<col.length; i++) {
+            col[i].style.visibility = 'visible';
+        }
+    };
     function hideSvg() {
-        document.getElementById('CheckSvg').style.visibility = 'hidden';
-        document.getElementById('CrossSvg').style.visibility = 'hidden';
+        var i = 0;
+        var col = document.getElementsByClassName('liSvg');
+        for(i=0; i<col.length; i++) {
+            col[i].style.visibility = 'hidden';
+        }
     }
+    
     function checkTheBox() {
         document.getElementById('CheckSvg').style.visibility = 'visible';
         let x = document.getElementById('this')
