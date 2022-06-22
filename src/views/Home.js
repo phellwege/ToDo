@@ -36,14 +36,13 @@ export default () => {
     }
 
 const [listItem, setListItem] = useState('') 
-const [isShown, setIsShown] = useState(false)
 
     return (
         <div className="background">
             <Header/>
             <div className="HomeCenter">
                 <div id="HomeTop">
-                    <p>TEXT HERE</p>
+                        TEXT HERE
                 </div>
                 <div className="HomeBottom">
                     <ul>
